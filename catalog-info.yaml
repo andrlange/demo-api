@@ -127,10 +127,8 @@ spec:
             - in: query
               name: name
               schema:
-                type: object
-                properties:
-                  type:
-                    type: string
+                type: string
+                example: Andreas
           responses:
             '200':
               description: Auto generated using Swagger Inspector
