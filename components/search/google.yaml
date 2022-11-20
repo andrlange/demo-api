@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: google-page
+  description: Demo Access to google
+  tags:
+    - search
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=search'
+    'backstage.io/techdocs-ref': dir:.
+  links:
+    - url: https://www.google.com/search?q=backstage.io
+      title: Search Google
+      icon: dashboard
+spec:
+  type: search
+  consumesApis:
+    - demo-api
+  lifecycle: alpha
+  owner: demo-team
+  system: demo-app

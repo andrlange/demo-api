@@ -7,5 +7,9 @@ metadata:
     'backstage.io/techdocs-ref': dir:.
 spec:
   targets:
+    - ./domains/demo/demo-domain.yaml
     - ./components/demo-app-ms-1/ms1.yaml
+    - ./components/demo-app-ms-2/ms2.yaml
     - ./components/demo-api/api.yaml
+    - ./components/search/google.yaml
+

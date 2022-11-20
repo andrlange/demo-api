@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: demo-app
+  description: Demo Application for Tanzu Application Platform
+  annotations:
+    'backstage.io/techdocs-ref': dir:.
+spec:
+  owner: demo-team
+  domain: demo-domain
