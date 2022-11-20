@@ -55,6 +55,7 @@ spec:
   lifecycle: alpha
   owner: demo-team
   system: demo-app
+  dependsOn: [Component:demo-app-ms-1]
   
 
 ---
