@@ -1,4 +1,4 @@
-site_name: 'Microservice 1'
+site_name: 'demo-app-and-api'
 
 nav:
   - Home: index.md
