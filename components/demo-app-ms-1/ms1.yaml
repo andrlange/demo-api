@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: demo-app-ms-1
+  links:
+    - url: https://ms1.default.apps.example.com
+      title: Microservice 1 Entrypoint
+      icon: dashboard
+  description: Demo Application's Microservice-1
+  tags:
+    - microservice
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=demo-app-ms-1'
+    'backstage.io/techdocs-ref': dir:.
+spec:
+  type: service
+  providesApis:
+    - demo-api
+  lifecycle: alpha
+  owner: demo-team
+  system: demo-app
