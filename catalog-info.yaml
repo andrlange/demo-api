@@ -1,7 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
+namespace: demo-app-and-api
 metadata:
-  name: demo-app-and-api
+  name: app
   description: A sample App Dependency and Demo API
   annotations:
     'backstage.io/techdocs-ref': dir:.
