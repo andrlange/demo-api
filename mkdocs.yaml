@@ -1,4 +1,4 @@
-site_name: 'Demo App and API'
+site_name: 'demo-app-and-api'
 
 nav:
   - Home: index.md
