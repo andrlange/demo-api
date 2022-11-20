@@ -1,3 +1,15 @@
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: sc-architecture-location
+  description: Spring Cloud Architecture on TAP
+  annotations:
+    'backstage.io/techdocs-ref': dir:.
+
+---
+
 apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
