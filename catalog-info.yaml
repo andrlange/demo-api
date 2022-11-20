@@ -8,3 +8,4 @@ metadata:
 spec:
   targets:
     - ./components/demo-app-ms-1/ms1.yaml
+    - ./components/demo-api/api.yaml
