@@ -1,4 +1,4 @@
-##Links:
+## Links:
 
 Descriptor Format of Catalog Entities
 > https://backstage.io/docs/features/software-catalog/descriptor-format
@@ -40,7 +40,7 @@ publish: `techdocs-cli publish --publisher-type awsS3 --storage-name tap-demo-bu
 
 > where  namespace=default kind=component metadata.name=demo-app-ms-1
 
-##Hints:
+## Hints:
 
 How to configure your tap-values.yml gui section (in this case local minikube):
 
